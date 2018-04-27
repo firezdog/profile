@@ -1,0 +1,22 @@
+.dropdown-menu {
+    background: #343a40;
+    text-align: center;
+}
+
+.fab {
+    color: white
+}
+
+.dropdown-menu {
+    min-width: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #6c757d;
+}
