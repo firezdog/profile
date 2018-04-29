@@ -1,0 +1,16 @@
+.jumbotron {   
+    margin: 5em auto;
+    -webkit-box-shadow: 10px 13px 29px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 13px 29px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 13px 29px -5px rgba(0,0,0,0.75);
+}
+
+p {
+    margin-top: 1%;
+}
+
+@media screen and (max-width: 760px) {
+    .jumbotron {
+        margin-top: 15%;
+    }
+}

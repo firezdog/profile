@@ -1,0 +1,14 @@
+.container {
+    margin: 5% 25%;
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        margin: 0;
+    }
+
+    embed {
+        width: 400px;
+        height: 600px;
+    }
+}
