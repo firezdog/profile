@@ -18,7 +18,17 @@ h2 {
         margin-top: 15%;
     }
     .carousel {
-        display: none;
+      display: none;
+    }
+    .card.scrollbar.scrollbar-primary {
+      width: 10rem;
+      font-size: 75%;
+    }
+    h1,h2 {
+      font-size: 75%;
+    }
+    #sidebar {
+      font-size: 50%;
     }
 }
 
@@ -167,5 +177,6 @@ a.nav-link {
 .scrollbar-secondary::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
   background-color: #aa66cc; }
               
